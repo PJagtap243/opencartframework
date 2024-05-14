@@ -7,6 +7,7 @@ public class ItemsPage {
 
 	private By searchedProductHeader = By.xpath("//div[@id='content']//h1");
 	private By productLink = By.xpath("//div[@class='caption']//a");
+	private By product = By.xpath("//div[@class='caption']//b");
 	
 	private WebDriver driver;
 	
