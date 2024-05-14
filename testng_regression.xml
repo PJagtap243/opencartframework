@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="2" parallel="tests">
+  <test  name="Login Page Test">
+    <classes>
+      <class name="com.qa.opencart.tests.LoginPageTest">
+      </class>
+    </classes>
+      </test>
+      <test  name="Items Page Test">
+    <classes>
+      <class name="com.qa.opencart.tests.ItemsPageTest">
+      </class>
+    </classes>
+      </test>
+      <test  name="Accounts Page Test">
+    <classes>
+      <class name="com.qa.opencart.tests.AccountsPageTest">
+      </class>
+    </classes>
+    
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
